@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<GameOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SelectedPlayers />
+  <PlayerNames />
+  <NumbersOfPlayers>2</NumbersOfPlayers>
+  <PlayAgainstComputer>true</PlayAgainstComputer>
+  <MinutesBeforeLoss>10</MinutesBeforeLoss>
+  <ComputerSkill>Dumb</ComputerSkill>
+</GameOptions>

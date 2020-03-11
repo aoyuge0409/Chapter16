@@ -1,0 +1,58 @@
+﻿<Window x:Class="TryItOutKarliCards.Options"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:src="clr-namespace:TryItOutKarliCards"
+        mc:Ignorable="d"
+        Title="Options" Height="345" Width="434" ResizeMode="NoResize">
+    <Window.Resources>
+        <src:InverseBoolConverter x:Key="inverseBool"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="85"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition />
+            <RowDefinition Height="42"/>
+        </Grid.RowDefinitions>
+        <Canvas Grid.Row="0" Background="#C40D42">
+            <Image Height="56" Canvas.Left="0" Canvas.Top="0" Stretch="UniformToFill" Source=".\Images\Banner.png" />
+            <Label Canvas.Right="10" Canvas.Top="13" Content="Options" Foreground="#FFF7EFEF" FontSize="24" FontWeight="Bold"/>
+        </Canvas>
+        <Canvas Grid.Row="1" Background="Black">
+            <Canvas.Resources>
+                <src:NumberOfPlayers x:Key="numberOfPlayersData" />
+            </Canvas.Resources>
+            <TabControl Canvas.Left="10" Grid.Row="1" Canvas.Top="2" Width="408" Height="208">
+                <TabItem Header="Game">
+                    <Grid Background="#FFE5E5E5">
+                        <CheckBox Content="Play against computer" HorizontalAlignment="Left" Margin="11,33,0,0" VerticalAlignment="Top" Name="playAgainstComputerCheck" Grid.ColumnSpan="2" 
+                                  IsChecked="{Binding Path=PlayAgainstComputer}"
+                                  IsEnabled="{Binding ElementName=playAgainstComputerCheck, Path=IsChecked, Converter={StaticResource inverseBool}}"
+                                  />
+                        <Label Content="Number of players" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                        <ComboBox HorizontalAlignment="Left" Margin="177,58,0,0" VerticalAlignment="Top" Width="86" Name="numberOfPlayersComboBox" Grid.Column="1" ItemsSource="{Binding Source={StaticResource numberOfPlayersData}}" SelectedValue="{Binding Path=NumberOfPlayers}"/>
+                        <Label Content="Time allowed for each player" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                        <TextBox HorizontalAlignment="Left" Height="23" Margin="177,87,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="86" TextAlignment="Center" Name="timeAllowedTextBok" Grid.Column="1" GotFocus="TimeAllowedTextBok_GotFocus" PreviewMouseLeftButtonDown="TimeAllowedTextBok_PreviewMouseLeftButtonDown" Text="{Binding Path=NumberOfPlayers}"/>
+                        <Label Content="Minutes" HorizontalAlignment="Left" Margin="268,85,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Computer Player">
+                    <Grid Background="#FFE5E5E5">
+                        <Label Content="Skill" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                        <RadioButton Content="Dumb" HorizontalAlignment="Left" Margin="37,41,0,0" VerticalAlignment="Top" IsChecked="True" Name="dumbAIRadioButton" Checked="DumbAIRadioButton_Checked"/>
+                        <RadioButton Content="Good" HorizontalAlignment="Left" Margin="37,62,0,0" VerticalAlignment="Top" Name="goodAIRAdioButton" Checked="GoodAIRAdioButton_Checked"/>
+                        <RadioButton Content="Cheats" HorizontalAlignment="Left" Margin="37,83,0,0" VerticalAlignment="Top" Name="cheatingAIRadioButton" Checked="CheatingAIRadioButton_Checked"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Canvas>
+        
+        <StackPanel Grid.Row="3" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button Content="_Cancel" Height="22" Width="75" Margin="10,0,0,0" Name="CancelButton" Click="CancelButton_Click" />
+            <Button Content="_OK" Height="22" Width="75" Margin="10,0,0,0" Name="OKButton" Click="OKButton_Click" />
+        </StackPanel>
+    </Grid>
+    
+</Window>

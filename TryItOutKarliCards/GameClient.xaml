@@ -1,0 +1,52 @@
+﻿<Window x:Class="TryItOutKarliCards.GameClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:src="clr-namespace:TryItOutKarliCards"
+        mc:Ignorable="d"
+        Title="Karli Cards Game Client"
+        WindowState="Maximized">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Close" CanExecute="CommandCanExecute" Executed="CommandExecuted" />
+        <CommandBinding Command="ApplicationCommands.Save" CanExecute="CommandCanExecute" Executed="CommandExecuted" />
+    </Window.CommandBindings>
+    <Grid Background="Green">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="85"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Canvas Grid.Row="0" Background="#C40D42">
+            <Image Height="56" Canvas.Left="0" Canvas.Top="0" Stretch="UniformToFill" Source=".\Images\Banner.png" />
+            <Label Canvas.Right="10" Canvas.Top="13" Content="Karli Cards" Foreground="#FFF7EFEF" FontSize="24" FontWeight="Bold"/>
+        </Canvas>
+        <Canvas Grid.Row="1" Margin="0" Background="Black">
+            <DockPanel Grid.Row="1">
+                <Menu Background="Black" FontWeight="Bold" Foreground="White">
+                    <MenuItem Header="_File" Foreground="White">
+                        <MenuItem Header="_New Game..." Height="22" Width="200" Foreground="Black" />
+                        <MenuItem Header="_Open" Width="200" Foreground="White"/>
+                        <MenuItem Header="_Save" Width="200" Foreground="White" Command="Save">
+                            <MenuItem.Icon>
+                            <Image Source="Images\base_floppydisk_32.png" Width="20"/>
+                        </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator Width="145" Foreground="Black"/>
+                        <MenuItem Header="_Close" Width="200" Foreground="White" Command="Close"/>
+                    </MenuItem>
+                    <MenuItem Header="_Game" Foreground="White" Background="Black">
+                        <MenuItem Header="_Undo" HorizontalAlignment="Left" Width="145" Foreground="White"/>
+                    </MenuItem>
+                    <MenuItem Header="_Tools" Foreground="White" Background="Black">
+                        <MenuItem Header="_Options" HorizontalAlignment="Left" Width="145" Foreground="White"/>
+                    </MenuItem>
+                    <MenuItem Header="_Help" Foreground="White" Background="Black">
+                        <MenuItem Header="_About" HorizontalAlignment="Left" Width="145" Foreground="White"/>
+                    </MenuItem>
+                </Menu>
+            </DockPanel>
+        </Canvas>
+        <Canvas Grid.Row="2" x:Name="contentGrid"/>
+    </Grid>
+</Window>

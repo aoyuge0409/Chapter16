@@ -1,0 +1,61 @@
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.csprojAssemblyReference.cache
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\About.g.cs
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\MainWindow.g.cs
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\Options.g.cs
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\App.g.cs
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards_MarkupCompile.cache
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards_MarkupCompile.lref
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.exe
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.pdb
+E:\IBT\C# Windows Form\TryItOutKarliCards\bin\Debug\TryItOutKarliCards.exe.config
+E:\IBT\C# Windows Form\TryItOutKarliCards\bin\Debug\TryItOutKarliCards.exe
+E:\IBT\C# Windows Form\TryItOutKarliCards\bin\Debug\TryItOutKarliCards.pdb
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\About.baml
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\MainWindow.baml
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\Options.baml
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.g.resources
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.Properties.Resources.resources
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.csproj.GenerateResource.cache
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.csproj.CoreCompileInputs.cache
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\StartGame.g.cs
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\StartGame.baml
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\GameClient.g.cs
+E:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\GameClient.baml
+D:\IBT\C# Windows Form\TryItOutKarliCards\bin\Debug\TryItOutKarliCards.exe.config
+D:\IBT\C# Windows Form\TryItOutKarliCards\bin\Debug\TryItOutKarliCards.exe
+D:\IBT\C# Windows Form\TryItOutKarliCards\bin\Debug\TryItOutKarliCards.pdb
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.csprojAssemblyReference.cache
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\About.g.cs
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\GameClient.g.cs
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\MainWindow.g.cs
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\Options.g.cs
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\StartGame.g.cs
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\App.g.cs
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards_MarkupCompile.cache
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards_MarkupCompile.lref
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\About.baml
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\GameClient.baml
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\MainWindow.baml
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\Options.baml
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\StartGame.baml
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.g.resources
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.Properties.Resources.resources
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.csproj.GenerateResource.cache
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.csproj.CoreCompileInputs.cache
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.exe
+D:\IBT\C# Windows Form\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.pdb
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.csprojAssemblyReference.cache
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\About.g.cs
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\GameClient.g.cs
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\MainWindow.g.cs
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\Options.g.cs
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\StartGame.g.cs
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\UserControl1.g.cs
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\App.g.cs
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\TryItOutKarliCards_MarkupCompile.cache
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\TryItOutKarliCards_MarkupCompile.lref
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.exe
+C:\Users\Programming13\Desktop\TryItOutKarliCards\obj\Debug\TryItOutKarliCards.pdb
